@@ -39,8 +39,7 @@ if __name__ == "__main__":
     # ...then add the connections one by one...
     # Note: this will fail from here if the person objects aren't created
     jill.add_connection(zalika, "friend")
-    jill.add_connection(john, "partner")
-    
+    jill.add_connection(john, "partner") 
     zalika.add_connection(jill, "friend")
     john.add_connection(jill, "partner")
     nash.add_connection(john, "cousin")
